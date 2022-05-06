@@ -1,0 +1,24 @@
+﻿batch_size: 32
+embed_size: 100
+validate_step: 1000
+label_sim_threshold: 0.0
+lambda_sim: 0.0
+lambda_sub: 0.0
+num_epochs: 10
+keep_label_percent: 1.0
+weight_decay_testing: True
+early_stop_lr: 2e-05
+dynamic_sem: True
+dynamic_sem_l2: False
+use_label_embedding: True
+per_label_attention: True
+per_label_sent_only: False
+pred_threshold: 0.5
+
+HAN==>Run 0 Validation results:34.847	Validation Accuracy: 0.474	Validation Hamming Loss: 0.715	Validation Precision: 0.659	Validation Recall: 0.606	Validation F-measure: 0.632	Validation Accuracy@k: 0.397	Validation Hamming Loss@k: 0.860	Validation Precision@k: 0.599	Validation Recall@k: 0.586	Validation F-measure@k: 0.593	Validation macro-Accuracy: 0.410	Validation macro-Precision: 0.602	Validation macro-Recall: 0.540	Validation macro-F-measure: 0.569	Validation macro-AUC: 0.882	Validation micro-Accuracy: 0.469	Validation micro-Precision: 0.672	Validation micro-Recall: 0.608	Validation micro-F-measure: 0.638	Validation micro-AUC: 0.912
+
+
+HAN==>Run 0 Test results Test Loss:35.199	Validation Accuracy: 0.471	Validation Hamming Loss: 0.748	Validation Precision: 0.661	Validation Recall: 0.600	Validation F-measure: 0.629	Validation Accuracy@k: 0.397	Validation Hamming Loss@k: 0.887	Validation Precision@k: 0.612	Validation Recall@k: 0.577	Validation F-measure@k: 0.594	Validation macro-Accuracy: 0.409	Validation macro-Precision: 0.596	Validation macro-Recall: 0.534	Validation macro-F-measure: 0.563	Validation macro-AUC: 0.879	Validation micro-Accuracy: 0.469	Validation micro-Precision: 0.678	Validation micro-Recall: 0.604	Validation micro-F-measure: 0.639	Validation micro-AUC: 0.911
+
+
+--- This fold, run 0, took 15464.330961227417 seconds ---

@@ -1,0 +1,29 @@
+﻿batch_size: 32
+embed_size: 100
+validate_step: 1000
+label_sim_threshold: 0.0
+lambda_sim: 0.0
+lambda_sub: 0.0
+num_epochs: 100
+keep_label_percent: 1.0
+weight_decay_testing: True
+early_stop_lr: 2e-05
+dynamic_sem: True
+dynamic_sem_l2: False
+use_label_embedding: True
+per_label_attention: True
+per_label_sent_only: True
+pred_threshold: 0.5
+
+HAN==>Run 0 Validation results:27.379	Validation Accuracy: 0.417	Validation Hamming Loss: 0.724	Validation Precision: 0.676	Validation Recall: 0.495	Validation F-measure: 0.571	Validation Accuracy@k: 0.382	Validation Hamming Loss@k: 0.889	Validation Precision@k: 0.582	Validation Recall@k: 0.567	Validation F-measure@k: 0.574	Validation macro-Accuracy: 0.363	Validation macro-Precision: 0.629	Validation macro-Recall: 0.438	Validation macro-F-measure: 0.516	Validation macro-AUC: 0.862	Validation micro-Accuracy: 0.417	Validation micro-Precision: 0.718	Validation micro-Recall: 0.499	Validation micro-F-measure: 0.589	Validation micro-AUC: 0.899
+
+HAN==>Final Validation results Validation Loss:27.379 ± 0.000 (27.379 - 27.379)	Validation Hamming Loss: 0.724 ± 0.000 (0.724 - 0.724)	Validation Accuracy: 0.417 ± 0.000 (0.417 - 0.417)	Validation Precision: 0.676 ± 0.000 (0.676 - 0.676)	Validation Recall: 0.495 ± 0.000 (0.495 - 0.495)	Validation F-measure: 0.571 ± 0.000 (0.571 - 0.571)	Validation Hamming Loss@k: 0.889 ± 0.000 (0.889 - 0.889)	Validation Accuracy@k: 0.382 ± 0.000 (0.382 - 0.382)	Validation Precision@k: 0.582 ± 0.000 (0.582 - 0.582)	Validation Recall@k: 0.567 ± 0.000 (0.567 - 0.567)	Validation F-measure@k: 0.574 ± 0.000 (0.574 - 0.574)	Validation macro-Accuracy: 0.363 ± 0.000 (0.363 - 0.363)	Validation macro-Precision: 0.629 ± 0.000 (0.629 - 0.629)	Validation macro-Recall: 0.438 ± 0.000 (0.438 - 0.438)	Validation macro-F-measure: 0.516 ± 0.000 (0.516 - 0.516)	Validation macro-AUC: 0.862 ± 0.000 (0.862 - 0.862)	Validation micro-Accuracy: 0.417 ± 0.000 (0.417 - 0.417)	Validation micro-Precision: 0.718 ± 0.000 (0.718 - 0.718)	Validation micro-Recall: 0.499 ± 0.000 (0.499 - 0.499)	Validation micro-F-measure: 0.589 ± 0.000 (0.589 - 0.589)	Validation micro-AUC: 0.899 ± 0.000 (0.899 - 0.899)
+
+
+HAN==>Run 0 Test results Test Loss:27.883	Validation Accuracy: 0.415	Validation Hamming Loss: 0.774	Validation Precision: 0.674	Validation Recall: 0.497	Validation F-measure: 0.572	Validation Accuracy@k: 0.377	Validation Hamming Loss@k: 0.930	Validation Precision@k: 0.587	Validation Recall@k: 0.561	Validation F-measure@k: 0.574	Validation macro-Accuracy: 0.360	Validation macro-Precision: 0.604	Validation macro-Recall: 0.435	Validation macro-F-measure: 0.506	Validation macro-AUC: 0.860	Validation micro-Accuracy: 0.414	Validation micro-Precision: 0.710	Validation micro-Recall: 0.499	Validation micro-F-measure: 0.586	Validation micro-AUC: 0.898
+
+HAN==>Final Test results Test Loss:27.883 ± 0.000 (27.883 - 27.883)	Test Hamming Loss: 0.774 ± 0.000 (0.774 - 0.774)	Test Accuracy: 0.415 ± 0.000 (0.415 - 0.415)	Test Precision: 0.674 ± 0.000 (0.674 - 0.674)	Test Recall: 0.497 ± 0.000 (0.497 - 0.497)	Test F-measure: 0.572 ± 0.000 (0.572 - 0.572)	Test Hamming Loss@k: 0.930 ± 0.000 (0.930 - 0.930)	Test Accuracy@k: 0.377 ± 0.000 (0.377 - 0.377)	Test Precision@k: 0.587 ± 0.000 (0.587 - 0.587)	Test Recall@k: 0.561 ± 0.000 (0.561 - 0.561)	Test F-measure@k: 0.574 ± 0.000 (0.574 - 0.574)	Test macro-Accuracy: 0.360 ± 0.000 (0.360 - 0.360)	Test macro-Precision: 0.604 ± 0.000 (0.604 - 0.604)	Test macro-Recall: 0.435 ± 0.000 (0.435 - 0.435)	Test macro-F-measure: 0.506 ± 0.000 (0.506 - 0.506)	Test macro-AUC: 0.860 ± 0.000 (0.860 - 0.860)	Test micro-Accuracy: 0.414 ± 0.000 (0.414 - 0.414)	Test micro-Precision: 0.710 ± 0.000 (0.710 - 0.710)	Test micro-Recall: 0.499 ± 0.000 (0.499 - 0.499)	Test micro-F-measure: 0.586 ± 0.000 (0.586 - 0.586)	Test micro-AUC: 0.898 ± 0.000 (0.898 - 0.898)
+
+
+--- The whole program took 26942.945210695267 seconds ---
+--- The average training took 26812.427089214325 ± 0 seconds ---
